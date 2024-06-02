@@ -1,0 +1,70 @@
+[gd_scene load_steps=17 format=3 uid="uid://4w1dd30fla6q"]
+
+[ext_resource type="Script" path="res://Pieces/DSCF.gd" id="1_jcfqh"]
+[ext_resource type="Script" path="res://Pieces/DSCE.gd" id="2_gvo5c"]
+[ext_resource type="Script" path="res://Pieces/DSRF.gd" id="3_ab4ap"]
+[ext_resource type="Script" path="res://Pieces/DSRE.gd" id="4_gbx3b"]
+[ext_resource type="Script" path="res://Pieces/DTCF.gd" id="5_jysq8"]
+[ext_resource type="Script" path="res://Pieces/DTCE.gd" id="6_cueon"]
+[ext_resource type="Script" path="res://Pieces/DTRF.gd" id="7_a50k2"]
+[ext_resource type="Script" path="res://Pieces/DTRE.gd" id="8_vr33w"]
+[ext_resource type="Script" path="res://Pieces/LSCF.gd" id="9_1kwta"]
+[ext_resource type="Script" path="res://Pieces/LSCE.gd" id="10_4x0ab"]
+[ext_resource type="Script" path="res://Pieces/LSRF.gd" id="11_ihe8t"]
+[ext_resource type="Script" path="res://Pieces/LSRE.gd" id="12_2pgv1"]
+[ext_resource type="Script" path="res://Pieces/LTCF.gd" id="13_qhy38"]
+[ext_resource type="Script" path="res://Pieces/LTCE.gd" id="14_xpuma"]
+[ext_resource type="Script" path="res://Pieces/LTRF.gd" id="15_fpbqf"]
+[ext_resource type="Script" path="res://Pieces/LTRE.gd" id="16_jv40v"]
+
+[node name="Scene" type="Node2D"]
+
+[node name="DSCF" type="Node2D" parent="."]
+script = ExtResource("1_jcfqh")
+
+[node name="Sprite2D" type="Sprite2D" parent="DSCF"]
+
+[node name="DSCE" type="Node2D" parent="."]
+script = ExtResource("2_gvo5c")
+
+[node name="DSRF" type="Node2D" parent="."]
+script = ExtResource("3_ab4ap")
+
+[node name="DSRE" type="Node2D" parent="."]
+script = ExtResource("4_gbx3b")
+
+[node name="DTCF" type="Node2D" parent="."]
+script = ExtResource("5_jysq8")
+
+[node name="DTCE" type="Node2D" parent="."]
+script = ExtResource("6_cueon")
+
+[node name="DTRF" type="Node2D" parent="."]
+script = ExtResource("7_a50k2")
+
+[node name="DTRE" type="Node2D" parent="."]
+script = ExtResource("8_vr33w")
+
+[node name="LSCF" type="Node2D" parent="."]
+script = ExtResource("9_1kwta")
+
+[node name="LSCE" type="Node2D" parent="."]
+script = ExtResource("10_4x0ab")
+
+[node name="LSRF" type="Node2D" parent="."]
+script = ExtResource("11_ihe8t")
+
+[node name="LSRE" type="Node2D" parent="."]
+script = ExtResource("12_2pgv1")
+
+[node name="LTCF" type="Node2D" parent="."]
+script = ExtResource("13_qhy38")
+
+[node name="LTCE" type="Node2D" parent="."]
+script = ExtResource("14_xpuma")
+
+[node name="LTRF" type="Node2D" parent="."]
+script = ExtResource("15_fpbqf")
+
+[node name="LTRE" type="Node2D" parent="."]
+script = ExtResource("16_jv40v")

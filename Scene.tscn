@@ -1,0 +1,147 @@
+[gd_scene load_steps=33 format=3 uid="uid://4w1dd30fla6q"]
+
+[ext_resource type="Script" path="res://Pieces/DSCF.gd" id="1_jcfqh"]
+[ext_resource type="Script" path="res://Pieces/DSCE.gd" id="2_gvo5c"]
+[ext_resource type="Texture2D" uid="uid://bwrfig13u78lj" path="res://Asserts/Pieces_Sprites/DSCF_S.png" id="2_mofca"]
+[ext_resource type="Script" path="res://Pieces/DSRF.gd" id="3_ab4ap"]
+[ext_resource type="Script" path="res://Pieces/DSRE.gd" id="4_gbx3b"]
+[ext_resource type="Texture2D" uid="uid://dsuud6ohbhpmu" path="res://Asserts/Pieces_Sprites/DSCE_S.png" id="4_nu4ls"]
+[ext_resource type="Script" path="res://Pieces/DTCF.gd" id="5_jysq8"]
+[ext_resource type="Texture2D" uid="uid://t2vfb6j0vhqr" path="res://Asserts/Pieces_Sprites/DSRF_S.png" id="6_0opvc"]
+[ext_resource type="Script" path="res://Pieces/DTCE.gd" id="6_cueon"]
+[ext_resource type="Script" path="res://Pieces/DTRF.gd" id="7_a50k2"]
+[ext_resource type="Texture2D" uid="uid://cj065bx6gj48n" path="res://Asserts/Pieces_Sprites/DTRF_S.png" id="8_axw1v"]
+[ext_resource type="Texture2D" uid="uid://da2xqww86dgtf" path="res://Asserts/Pieces_Sprites/DSRE_S.png" id="8_dj5xe"]
+[ext_resource type="Script" path="res://Pieces/DTRE.gd" id="8_vr33w"]
+[ext_resource type="Script" path="res://Pieces/LSCF.gd" id="9_1kwta"]
+[ext_resource type="Script" path="res://Pieces/LSCE.gd" id="10_4x0ab"]
+[ext_resource type="Texture2D" uid="uid://beia7t2avhqw6" path="res://Asserts/Pieces_Sprites/DTCF_S.png" id="10_yotvh"]
+[ext_resource type="Script" path="res://Pieces/LSRF.gd" id="11_ihe8t"]
+[ext_resource type="Script" path="res://Pieces/LSRE.gd" id="12_2pgv1"]
+[ext_resource type="Texture2D" uid="uid://c8etouqgykt82" path="res://Asserts/Pieces_Sprites/DTCE_S.png" id="12_22w7a"]
+[ext_resource type="Script" path="res://Pieces/LTCF.gd" id="13_qhy38"]
+[ext_resource type="Script" path="res://Pieces/LTCE.gd" id="14_xpuma"]
+[ext_resource type="Script" path="res://Pieces/LTRF.gd" id="15_fpbqf"]
+[ext_resource type="Script" path="res://Pieces/LTRE.gd" id="16_jv40v"]
+[ext_resource type="Texture2D" uid="uid://3m78mx5ido5t" path="res://Asserts/Pieces_Sprites/DTRE_S.png" id="16_r37pf"]
+[ext_resource type="Texture2D" uid="uid://brvf02ow058of" path="res://Asserts/Pieces_Sprites/LSCF_S.png" id="18_756do"]
+[ext_resource type="Texture2D" uid="uid://78v1id26ykhx" path="res://Asserts/Pieces_Sprites/LSCE_S.png" id="20_68ml2"]
+[ext_resource type="Texture2D" uid="uid://dn00klbfdoxro" path="res://Asserts/Pieces_Sprites/LSRF_S.png" id="22_q01ug"]
+[ext_resource type="Texture2D" uid="uid://cgvex4qy67jsp" path="res://Asserts/Pieces_Sprites/LSRE_S.png" id="24_nv4so"]
+[ext_resource type="Texture2D" uid="uid://crsj2bk85kqh7" path="res://Asserts/Pieces_Sprites/LTCF_S.png" id="26_ui5f4"]
+[ext_resource type="Texture2D" uid="uid://dygvbcc4wxxis" path="res://Asserts/Pieces_Sprites/LTCE_S.png" id="28_y6chy"]
+[ext_resource type="Texture2D" uid="uid://dwkdk4p3bewi6" path="res://Asserts/Pieces_Sprites/LTRF_S.png" id="30_qf1xe"]
+[ext_resource type="Texture2D" uid="uid://db0qjh1ywlg4p" path="res://Asserts/Pieces_Sprites/LTRE_S.png" id="32_hav3g"]
+
+[node name="Scene" type="Node2D"]
+
+[node name="DSCF" type="Node2D" parent="."]
+script = ExtResource("1_jcfqh")
+
+[node name="Sprite2D" type="Sprite2D" parent="DSCF"]
+position = Vector2(-13, -22)
+texture = ExtResource("2_mofca")
+
+[node name="DSCE" type="Node2D" parent="."]
+script = ExtResource("2_gvo5c")
+
+[node name="Sprite2D" type="Sprite2D" parent="DSCE"]
+position = Vector2(15, -22)
+texture = ExtResource("4_nu4ls")
+
+[node name="DSRF" type="Node2D" parent="."]
+script = ExtResource("3_ab4ap")
+
+[node name="Sprite2D" type="Sprite2D" parent="DSRF"]
+position = Vector2(-13, 0)
+texture = ExtResource("6_0opvc")
+
+[node name="DSRE" type="Node2D" parent="."]
+script = ExtResource("4_gbx3b")
+
+[node name="Sprite2D" type="Sprite2D" parent="DSRE"]
+position = Vector2(13, 0)
+texture = ExtResource("8_dj5xe")
+
+[node name="DTCF" type="Node2D" parent="."]
+script = ExtResource("5_jysq8")
+
+[node name="Sprite2D" type="Sprite2D" parent="DTCF"]
+position = Vector2(-25, -22)
+texture = ExtResource("10_yotvh")
+
+[node name="DTCE" type="Node2D" parent="."]
+script = ExtResource("6_cueon")
+
+[node name="Sprite2D" type="Sprite2D" parent="DTCE"]
+position = Vector2(0, -21)
+texture = ExtResource("12_22w7a")
+
+[node name="DTRF" type="Node2D" parent="."]
+script = ExtResource("7_a50k2")
+
+[node name="Sprite2D" type="Sprite2D" parent="DTRF"]
+position = Vector2(-25, 0)
+texture = ExtResource("8_axw1v")
+
+[node name="DTRE" type="Node2D" parent="."]
+script = ExtResource("8_vr33w")
+
+[node name="Sprite2D" type="Sprite2D" parent="DTRE"]
+texture = ExtResource("16_r37pf")
+
+[node name="LSCF" type="Node2D" parent="."]
+script = ExtResource("9_1kwta")
+
+[node name="Sprite2D" type="Sprite2D" parent="LSCF"]
+position = Vector2(-13, 36)
+texture = ExtResource("18_756do")
+
+[node name="LSCE" type="Node2D" parent="."]
+script = ExtResource("10_4x0ab")
+
+[node name="Sprite2D" type="Sprite2D" parent="LSCE"]
+position = Vector2(13, 35)
+texture = ExtResource("20_68ml2")
+
+[node name="LSRF" type="Node2D" parent="."]
+script = ExtResource("11_ihe8t")
+
+[node name="Sprite2D" type="Sprite2D" parent="LSRF"]
+position = Vector2(-13, 18)
+texture = ExtResource("22_q01ug")
+
+[node name="LSRE" type="Node2D" parent="."]
+script = ExtResource("12_2pgv1")
+
+[node name="Sprite2D" type="Sprite2D" parent="LSRE"]
+position = Vector2(13, 18)
+texture = ExtResource("24_nv4so")
+
+[node name="LTCF" type="Node2D" parent="."]
+script = ExtResource("13_qhy38")
+
+[node name="Sprite2D" type="Sprite2D" parent="LTCF"]
+position = Vector2(-26, 36)
+texture = ExtResource("26_ui5f4")
+
+[node name="LTCE" type="Node2D" parent="."]
+script = ExtResource("14_xpuma")
+
+[node name="Sprite2D" type="Sprite2D" parent="LTCE"]
+position = Vector2(0, 36)
+texture = ExtResource("28_y6chy")
+
+[node name="LTRF" type="Node2D" parent="."]
+script = ExtResource("15_fpbqf")
+
+[node name="Sprite2D" type="Sprite2D" parent="LTRF"]
+position = Vector2(-25, 18)
+texture = ExtResource("30_qf1xe")
+
+[node name="LTRE" type="Node2D" parent="."]
+script = ExtResource("16_jv40v")
+
+[node name="Sprite2D" type="Sprite2D" parent="LTRE"]
+position = Vector2(0, 18)
+texture = ExtResource("32_hav3g")
